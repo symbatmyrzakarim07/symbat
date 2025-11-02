@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бизнес компаниясы</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0ea5e9, #0284c7);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    nav {
+      background: #1e3a8a;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #facc15;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #0ea5e9;
+      margin-bottom: 20px;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .card {
+      background: #f0f9ff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    footer p {
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>«SmartBiz» компаниясы</h1>
+    <p>Сіздің бизнесіңізге арналған заманауи шешімдер</p>
+  </header>
+
+  <nav>
+    <a href="#about">Біз туралы</a>
+    <a href="#services">Қызметтер</a>
+    <a href="#contact">Байланыс</a>
+  </nav>
+
+  <section id="about">
+    <h2>Біз туралы</h2>
+    <p>
+      «SmartBiz» — бұл шағын және орта бизнеске арналған заманауи IT және маркетингтік шешімдер ұсынатын компания.
+      Біз веб-сайттар жасаймыз, жарнамалық стратегия құрамыз және сіздің брендіңізді интернетте дамытамыз.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Біздің қызметтер</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Веб-сайт жасау</h3>
+        <p>Бизнесіңізге сай кәсіби веб-сайттар — жылдам, әдемі және ыңғайлы.</p>
+      </div>
+      <div class="card">
+        <h3>Маркетинг және жарнама</h3>
+        <p>Сіздің өнімдеріңізді әлеуметтік желілер мен Google арқылы алға жылжыту.</p>
+      </div>
+      <div class="card">
+        <h3>Брендинг</h3>
+        <p>Логотип, фирмалық стиль және бренд имиджін жасау.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Байланыс</h2>
+    <p>📞 +7 777 000 00 00</p>
+    <p>📧 info@smartbiz.kz</p>
+    <p>📍 Алматы, Қазақстан</p>
+  </section>
+
+  <footer>
+    <p>© 2025 SmartBiz. Барлық құқықтар қорғалған.</p>
+  </footer>
+</body>
+</html>
