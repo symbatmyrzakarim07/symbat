@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowerDream 🌸</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #f472b6, #ec4899);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #be185d;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fde68a;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #be185d;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .about {
+      text-align: center;
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      width: 300px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      color: #be185d;
+      padding: 15px;
+    }
+
+    .card p {
+      padding: 0 15px 20px;
+      font-size: 0.95em;
+    }
+
+    .contact {
+      background: #fbcfe8;
+      border-radius: 15px;
+      padding: 30px;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    footer {
+      background: #be185d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌷 FlowerDream</h1>
+    <p>Гүл арқылы қуаныш сыйлаңыз!</p>
+  </header>
+
+  <nav>
+    <a href="#about">Біз туралы</a>
+    <a href="#products">Гүлдер</a>
+    <a href="#contact">Байланыс</a>
+  </nav>
+
+  <section id="about">
+    <h2>Біз туралы</h2>
+    <p class="about">
+      FlowerDream — бұл гүлдер дүкені, біз әрбір клиентке ерекше көңіл бөлеміз.  
+      Туған күнге, мерекеге немесе жай ғана қуаныш сыйлау үшін ең әдемі гүл шоқтарын ұсынамыз.  
+      Қаланың кез келген жеріне жылдам жеткізу қызметі бар 🌸
+    </p>
+  </section>
+
+  <section id="products">
+    <h2>Біздің гүлдер</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Роза гүлдері">
+        <h3>Қызыл раушан 🌹</h3>
+        <p>Махаббаттың нышаны. Бағасы: 5000 тг</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0" alt="Тюльпан">
+        <h3>Тюльпандар 🌷</h3>
+        <p>Көктемнің символы. Бағасы: 4000 тг</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Ақ гүлдер">
+        <h3>Ақ гүл шоғы 💐</h3>
+        <p>Нәзіктік пен тазалық. Бағасы: 6000 тг</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Байланыс</h2>
+    <div class="contact">
+      <p>📞 +7 777 123 45 67</p>
+      <p>📧 flowerdream@gmail.com</p>
+      <p>📍 Алматы қ., Гүлдер көшесі, 10</p>
+      <p>💬 <a href="https://wa.me/77771234567" target="_blank">WhatsApp арқылы тапсырыс беру</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 FlowerDream — Гүлмен өмірді әсемде!</p>
+  </footer>
+
+</body>
+</html>
